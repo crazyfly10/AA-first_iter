@@ -1,0 +1,9 @@
+
+PRE_HEAD_TYPE is     C
+POST_TAIL_TYPE is     N
+Net charge of truncated molecule is     0.00
+MAIN_CHAIN     1    1   NA
+Number of mainchain atoms (including head and tail atom):     1
+Number of omited atoms:    12
+Total postive charge is 0.0
+Total negtive charge is 0.0

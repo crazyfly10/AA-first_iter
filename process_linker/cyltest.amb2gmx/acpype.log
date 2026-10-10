@@ -1,0 +1,48 @@
+============================================================================
+| ACPYPE: AnteChamber PYthon Parser interfacE v. 2023.10.27 (c) 2026 AWSdS |
+============================================================================
+DEBUG: CLI: -p test.prmtop -x test.inpcrd -b cyltest
+DEBUG: Python Version 3.12.13 | packaged by conda-forge | (main, Mar 5 2026, 16:50:00) [GCC 14.3.0]
+Converting Amber input files to Gromacs ...
+DEBUG: prmtop and inpcrd files loaded
+DEBUG: basename defined = 'cyltest'
+DEBUG: getCoords done
+DEBUG: getABCOEFs done
+DEBUG: charge to be balanced: total 0.0000000060
+DEBUG: balanceCharges done
+DEBUG: Balanced TotalCharge 0.0000000000
+DEBUG: PBC = [[56.3337169, 56.3337169, 56.3337169], [109.471219, 109.471219, 109.471219]]
+DEBUG: getAtoms done
+DEBUG: getBonds done
+DEBUG: getAngles done
+DEBUG: getDihedrals done
+==> Writing GROMACS files
+
+==> Disambiguating lower and uppercase atomtypes in GMX top file, even if identical.
+
+DEBUG: writing GRO file
+DEBUG: PBC octahedron
+DEBUG: writing POSRE file
+DEBUG: atomTypes 19
+DEBUG: GMX atomtypes done
+DEBUG: type of water 'TIP3P'
+DEBUG: atoms 11928
+DEBUG: GMX atoms done
+DEBUG: bonds 11930
+DEBUG: GMX bonds done
+DEBUG: atomPairs 266
+DEBUG: GMX pairs done
+DEBUG: angles 204
+DEBUG: GMX angles done
+DEBUG: setProperDihedralsCoef done
+DEBUG: properDihedralsCoefRB 281
+DEBUG: properDihedralsAlphaGamma 0
+DEBUG: properDihedralsGmx45 389
+==> Writing GMX dihedrals for GMX 4.5 and higher.
+
+DEBUG: GMX special proper dihedrals done
+DEBUG: improperDihedrals 14
+DEBUG: GMX improper dihedrals done
+DEBUG: prmtop and inpcrd files parsed
+Total time of execution: less than a second
+DEBUG: No tmp folder left to be removed

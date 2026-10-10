@@ -1,0 +1,185 @@
+-I: Adding /root/miniconda3/envs/GROMACS-IGEM/dat/leap/prep to search path.
+-I: Adding /root/miniconda3/envs/GROMACS-IGEM/dat/leap/lib to search path.
+-I: Adding /root/miniconda3/envs/GROMACS-IGEM/dat/leap/parm to search path.
+-I: Adding /root/miniconda3/envs/GROMACS-IGEM/dat/leap/cmd to search path.
+-f: Source build.leap.
+
+Welcome to LEaP!
+(no leaprc in search path)
+Sourcing: ./build.leap
+----- Source: /root/miniconda3/envs/GROMACS-IGEM/dat/leap/cmd/leaprc.protein.ff19SB
+----- Source of /root/miniconda3/envs/GROMACS-IGEM/dat/leap/cmd/leaprc.protein.ff19SB done
+Log file: ./leap.log
+Loading parameters: /root/miniconda3/envs/GROMACS-IGEM/dat/leap/parm/parm19.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA + ff19SB
+Loading parameters: /root/miniconda3/envs/GROMACS-IGEM/dat/leap/parm/frcmod.ff19SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff19SB AA-specific backbone CMAPs for protein 07/25/2019
+Loading library: /root/miniconda3/envs/GROMACS-IGEM/dat/leap/lib/amino19.lib
+Loading library: /root/miniconda3/envs/GROMACS-IGEM/dat/leap/lib/aminoct12.lib
+Loading library: /root/miniconda3/envs/GROMACS-IGEM/dat/leap/lib/aminont12.lib
+----- Source: /root/miniconda3/envs/GROMACS-IGEM/dat/leap/cmd/leaprc.gaff2
+----- Source of /root/miniconda3/envs/GROMACS-IGEM/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /root/miniconda3/envs/GROMACS-IGEM/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /root/miniconda3/envs/GROMACS-IGEM/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /root/miniconda3/envs/GROMACS-IGEM/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /root/miniconda3/envs/GROMACS-IGEM/dat/leap/lib/atomic_ions.lib
+Loading library: /root/miniconda3/envs/GROMACS-IGEM/dat/leap/lib/solvents.lib
+Loading parameters: /root/miniconda3/envs/GROMACS-IGEM/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /root/miniconda3/envs/GROMACS-IGEM/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /root/miniconda3/envs/GROMACS-IGEM/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /root/miniconda3/envs/GROMACS-IGEM/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading Prep file: ./cyl_fixed.prep
+Loading parameters: ./cyl.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading PDB file: ./12hets_full_fib_noH.pdb
+  total atoms in file: 6660
+  Leap added 6686 missing atoms according to residue templates:
+       6686 H / lone pairs
+Writing pdb file: fib_check.pdb
+
+/root/miniconda3/envs/GROMACS-IGEM/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NMET -> MET
+
+/root/miniconda3/envs/GROMACS-IGEM/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CASN -> ASN
+
+/root/miniconda3/envs/GROMACS-IGEM/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NMET -> MET
+
+/root/miniconda3/envs/GROMACS-IGEM/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CASN -> ASN
+
+/root/miniconda3/envs/GROMACS-IGEM/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NMET -> MET
+
+/root/miniconda3/envs/GROMACS-IGEM/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CASN -> ASN
+
+/root/miniconda3/envs/GROMACS-IGEM/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NMET -> MET
+
+/root/miniconda3/envs/GROMACS-IGEM/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CASN -> ASN
+
+/root/miniconda3/envs/GROMACS-IGEM/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NMET -> MET
+
+/root/miniconda3/envs/GROMACS-IGEM/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CASN -> ASN
+
+/root/miniconda3/envs/GROMACS-IGEM/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NMET -> MET
+
+/root/miniconda3/envs/GROMACS-IGEM/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CASN -> ASN
+
+/root/miniconda3/envs/GROMACS-IGEM/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NMET -> MET
+
+/root/miniconda3/envs/GROMACS-IGEM/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CASN -> ASN
+
+/root/miniconda3/envs/GROMACS-IGEM/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NMET -> MET
+
+/root/miniconda3/envs/GROMACS-IGEM/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CASN -> ASN
+
+/root/miniconda3/envs/GROMACS-IGEM/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NMET -> MET
+
+/root/miniconda3/envs/GROMACS-IGEM/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CASN -> ASN
+
+/root/miniconda3/envs/GROMACS-IGEM/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NMET -> MET
+
+/root/miniconda3/envs/GROMACS-IGEM/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CASN -> ASN
+
+/root/miniconda3/envs/GROMACS-IGEM/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NMET -> MET
+
+/root/miniconda3/envs/GROMACS-IGEM/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CASN -> ASN
+
+/root/miniconda3/envs/GROMACS-IGEM/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NMET -> MET
+
+/root/miniconda3/envs/GROMACS-IGEM/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CASN -> ASN
+Checking Unit.
+
+/root/miniconda3/envs/GROMACS-IGEM/bin/teLeap: Warning!
+The unperturbed charge of the unit (12.000000) is not zero.
+
+/root/miniconda3/envs/GROMACS-IGEM/bin/teLeap: Note.
+Ignoring the warning from Unit Checking.
+
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+old PREP-specified impropers:
+ <CYL 233>:  -M   CA   N    H   
+ <CYL 233>:  C5   N1   C6   O1  
+ <CYL 233>:  C6   C7   N1   C30 
+ <CYL 233>:  C8   N2   C9   O2  
+ <CYL 233>:  C9   C10  N2   H14 
+ <CYL 233>:  C20  C19  N3   H35 
+ <CYL 233>:  C21  N3   C20  O7  
+ <CYL 233>:  C27  C28  N4   H48 
+ <CYL 233>:  N4   N5   C28  O8  
+ <CYL 233>:  C4   N1   C30  O9  
+ <CYL 233>:  +M   CA   C    O   
+ <CYL 1063>:  -M   CA   N    H   
+ <CYL 1063>:  C5   N1   C6   O1  
+ <CYL 1063>:  C6   C7   N1   C30 
+ <CYL 1063>:  C8   N2   C9   O2  
+ <CYL 1063>:  C9   C10  N2   H14 
+ <CYL 1063>:  C20  C19  N3   H35 
+ <CYL 1063>:  C21  N3   C20  O7  
+ <CYL 1063>:  C27  C28  N4   H48 
+ <CYL 1063>:  N4   N5   C28  O8  
+ <CYL 1063>:  C4   N1   C30  O9  
+ <CYL 1063>:  +M   CA   C    O   
+ total 2624 improper torsions applied
+ 22 improper torsions in old prep form
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	CASN	12
+	NMET	12
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 25; Notes = 1.
